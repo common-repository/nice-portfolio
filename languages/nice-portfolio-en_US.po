@@ -1,0 +1,1480 @@
+# Copyright (C) 2015 NiceThemes
+# This file is distributed under the same license as the Nice_Portfolio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio by NiceThemes\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/nice-portfolio\n"
+"POT-Creation-Date: 2016-08-08 17:07-0300\n"
+"PO-Revision-Date: 2016-08-08 17:07-0300\n"
+"Last-Translator: FULL NAME <email@example.com>\n"
+"Language-Team: NiceThemes <hello@nicethemes.com >\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: admin/action-links.php:38 admin/ui/init.php:30 admin/ui/sections.php:29
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/help-pointers.php:36
+msgid ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your projects the way you want."
+msgstr ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your projects the way you want."
+
+#: admin/notices.php:94
+#, php-format
+msgid ""
+"You just installed %1$s. Go to %2$sPortfolio Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+msgstr ""
+"You just installed %1$s. Go to %2$sPortfolio Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+
+#: admin/post-types/portfolio/metaboxes.php:81
+msgid "Video Embed Code"
+msgstr "Video Embed Code"
+
+#: admin/post-types/portfolio/metaboxes.php:84
+msgid ""
+"Enter the video embed code for your video (YouTube, Vimeo or similar). It "
+"will show instead of your image."
+msgstr ""
+"Enter the video embed code for your video (YouTube, Vimeo or similar). It "
+"will show instead of your image."
+
+#: admin/post-types/portfolio/metaboxes.php:91 admin/ui/settings.php:67
+msgid "Client"
+msgstr "Client"
+
+#: admin/post-types/portfolio/metaboxes.php:93
+msgid "Enter the name of the client of the project, e.g Google or John Doe."
+msgstr "Enter the name of the client of the project, e.g Google or John Doe."
+
+#: admin/post-types/portfolio/metaboxes.php:100 admin/ui/settings.php:68
+msgid "Start Date"
+msgstr "Start Date"
+
+#: admin/post-types/portfolio/metaboxes.php:102
+msgid "When was this project started?"
+msgstr "When was this project started?"
+
+#: admin/post-types/portfolio/metaboxes.php:109 admin/ui/settings.php:69
+msgid "End Date"
+msgstr "End Date"
+
+#: admin/post-types/portfolio/metaboxes.php:111
+msgid "When was this project finished?"
+msgstr "When was this project finished?"
+
+#: admin/post-types/portfolio/metaboxes.php:118
+msgid "Project URL"
+msgstr "Project URL"
+
+#: admin/post-types/portfolio/metaboxes.php:121
+msgid "Enter URL of your client's site."
+msgstr "Enter URL of your client's site."
+
+#: admin/post-types/portfolio/metaboxes.php:137
+#: templates/single-project/details.php:19
+msgid "Project Details"
+msgstr "Project Details"
+
+#: admin/post-types/portfolio/metaboxes.php:174
+msgid "Add project gallery images"
+msgstr "Add project gallery images"
+
+#: admin/post-types/portfolio/metaboxes.php:186
+#: templates/single-project/gallery.php:21
+msgid "Project Gallery"
+msgstr "Project Gallery"
+
+#: admin/post-types/portfolio/metaboxes.php:270 admin/scripts.php:72
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:181
+msgid "Remove"
+msgstr "Remove"
+
+#: admin/post-types/portfolio/metaboxes.php:274 admin/scripts.php:73
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/post-types/portfolio/metaboxes.php:286
+msgid "Add images to project gallery"
+msgstr "Add images to project gallery"
+
+#: admin/post-types/portfolio/metaboxes.php:309
+msgid "Enter the project title here"
+msgstr "Enter the project title here"
+
+#: admin/post-types/portfolio/metaboxes.php:326
+msgid "Project image"
+msgstr "Project image"
+
+#: admin/post-types/portfolio/metaboxes.php:353
+msgid "Set featured image"
+msgstr "Set featured image"
+
+#: admin/post-types/portfolio/metaboxes.php:354
+msgid "Set project image"
+msgstr "Set project image"
+
+#: admin/post-types/portfolio/metaboxes.php:359
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+#: admin/post-types/portfolio/metaboxes.php:360
+msgid "Remove project image"
+msgstr "Remove project image"
+
+#: admin/post-types/portfolio/metaboxes.php:399
+#: admin/post-types/portfolio/metaboxes.php:400
+msgid "Set Project Image"
+msgstr "Set Project Image"
+
+#: admin/post-types/portfolio/post-type.php:81
+#, php-format
+msgid "Project updated. <a href=\"%s\">View project</a>"
+msgstr "Project updated. <a href=\"%s\">View project</a>"
+
+#: admin/post-types/portfolio/post-type.php:84
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: admin/post-types/portfolio/post-type.php:85
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: admin/post-types/portfolio/post-type.php:86
+msgid "Project updated."
+msgstr "Project updated."
+
+#: admin/post-types/portfolio/post-type.php:88
+#, php-format
+msgid "Project restored to revision from %s"
+msgstr "Project restored to revision from %s"
+
+#: admin/post-types/portfolio/post-type.php:90
+#, php-format
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr "Project published. <a href=\"%s\">View project</a>"
+
+#: admin/post-types/portfolio/post-type.php:93
+msgid "Project saved."
+msgstr "Project saved."
+
+#: admin/post-types/portfolio/post-type.php:95
+#, php-format
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+
+#: admin/post-types/portfolio/post-type.php:99
+#, php-format
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview project</a>"
+msgstr ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview project</a>"
+
+#: admin/post-types/portfolio/post-type.php:101
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/post-types/portfolio/post-type.php:103
+#, php-format
+msgid ""
+"Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+"Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+
+#: admin/scripts.php:70
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:179
+msgid "Use This File"
+msgstr "Use This File"
+
+#: admin/scripts.php:74
+msgid "Add Images to Project Gallery"
+msgstr "Add Images to Project Gallery"
+
+#: admin/scripts.php:75
+msgid "Add to gallery"
+msgstr "Add to gallery"
+
+#: admin/templates/widget-categories-form.php:23
+#: admin/templates/widget-recent-projects-form.php:22
+msgid "Widget Title"
+msgstr "Widget Title"
+
+#: admin/templates/widget-categories-form.php:28
+msgid "Display as dropdown"
+msgstr "Display as dropdown"
+
+#: admin/templates/widget-categories-form.php:31
+msgid "Show post counts"
+msgstr "Show post counts"
+
+#: admin/templates/widget-categories-form.php:34
+msgid "Show hierarchy"
+msgstr "Show hierarchy"
+
+#: admin/templates/widget-recent-projects-form.php:26
+msgid "Number of posts to show:"
+msgstr "Number of posts to show:"
+
+#: admin/templates/widget-recent-projects-form.php:31
+msgid "Display project excerpt?"
+msgstr "Display project excerpt?"
+
+#: admin/templates/widget-recent-projects-form.php:34
+msgid "Display project thumbnail?"
+msgstr "Display project thumbnail?"
+
+#: admin/templates/widget-recent-projects-form.php:37
+msgid "Thumbnail Size:"
+msgstr "Thumbnail Size:"
+
+#: admin/templates/widget-recent-projects-form.php:38 admin/ui/settings.php:258
+msgid "Width:"
+msgstr "Width:"
+
+#: admin/templates/widget-recent-projects-form.php:40 admin/ui/settings.php:260
+msgid "Height:"
+msgstr "Height:"
+
+#: admin/ui/footer-links.php:30
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/ui/footer-links.php:36
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/ui/footer-links.php:42 admin/ui/help-tabs.php:55
+#: admin/ui/templates/help-tab-help.php:16
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/ui/footer-links.php:48 admin/ui/templates/help-sidebar.php:20
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/ui/help-tabs.php:40 admin/ui/settings-groups.php:29
+#: admin/ui/templates/help-tab-general.php:16
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/ui/help-tabs.php:45 admin/ui/settings-groups.php:36
+#: admin/ui/templates/help-tab-images.php:16
+msgid "Images Settings"
+msgstr "Images Settings"
+
+#: admin/ui/help-tabs.php:50 admin/ui/settings-groups.php:43
+#: admin/ui/templates/help-tab-advanced.php:16
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: admin/ui/help-tabs.php:60
+msgid "Compatible Themes"
+msgstr "Compatible Themes"
+
+#: admin/ui/sections.php:30
+msgid "Nice Portfolio Settings"
+msgstr "Nice Portfolio Settings"
+
+#: admin/ui/sections.php:32
+msgid ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+msgstr ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+
+#: admin/ui/sections.php:36
+msgid "About"
+msgstr "About"
+
+#: admin/ui/sections.php:37
+msgid "About Nice Portfolio"
+msgstr "About Nice Portfolio"
+
+#: admin/ui/settings-groups.php:30
+msgid ""
+"Configure how your projects will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+msgstr ""
+"Configure how your projects will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+
+#: admin/ui/settings-groups.php:37
+msgid ""
+"Here you can set the sizes for your project images. Once you change these "
+"settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+"regenerate-thumbnails/\" target=\"_blank\">regenerate your thumbnails</a>."
+msgstr ""
+"Here you can set the sizes for your project images. Once you change these "
+"settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+"regenerate-thumbnails/\" target=\"_blank\">regenerate your thumbnails</a>."
+
+#: admin/ui/settings-groups.php:44
+msgid ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully. If you want to learn how to natively support this plugin in your "
+"theme, you can read the full documentation here."
+msgstr ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully. If you want to learn how to natively support this plugin in your "
+"theme, you can read the full documentation here."
+
+#: admin/ui/settings.php:33
+msgid "Portfolio Page"
+msgstr "Portfolio Page"
+
+#: admin/ui/settings.php:34
+msgid "This is the page where all your projects will appear."
+msgstr "This is the page where all your projects will appear."
+
+#: admin/ui/settings.php:36 admin/ui/settings.php:86 admin/ui/settings.php:98
+#: admin/ui/settings.php:215
+msgid "Select an option"
+msgstr "Select an option"
+
+#: admin/ui/settings.php:41
+msgid "Number of Projects"
+msgstr "Number of Projects"
+
+#: admin/ui/settings.php:42
+msgid ""
+"The maximum number of items to be displayed in a list of projects. A value of "
+"0 (zero) means no projects will display. Use -1 (minus one) to display "
+"unlimited projects."
+msgstr ""
+"The maximum number of items to be displayed in a list of projects. A value of "
+"0 (zero) means no projects will display. Use -1 (minus one) to display "
+"unlimited projects."
+
+#: admin/ui/settings.php:42 admin/ui/settings.php:49 admin/ui/settings.php:77
+#: admin/ui/settings.php:92
+#, php-format
+msgid "You can override this setting in shortcodes using the %s property."
+msgstr "You can override this setting in shortcodes using the %s property."
+
+#: admin/ui/settings.php:48
+msgid "Number of Columns"
+msgstr "Number of Columns"
+
+#: admin/ui/settings.php:49
+msgid "The number of columns to be displayed in a list of projects."
+msgstr "The number of columns to be displayed in a list of projects."
+
+#: admin/ui/settings.php:55
+msgid "Display category filter"
+msgstr "Display category filter"
+
+#: admin/ui/settings.php:56
+msgid "Show filter by category when listing projects."
+msgstr "Show filter by category when listing projects."
+
+#: admin/ui/settings.php:62
+msgid "Visible Data"
+msgstr "Visible Data"
+
+#: admin/ui/settings.php:63
+msgid "Check which fields should be displayed within a project."
+msgstr "Check which fields should be displayed within a project."
+
+#: admin/ui/settings.php:66
+msgid "Video Embed"
+msgstr "Video Embed"
+
+#: admin/ui/settings.php:70
+msgid "URL"
+msgstr "URL"
+
+#: admin/ui/settings.php:76
+msgid "Order items by"
+msgstr "Order items by"
+
+#: admin/ui/settings.php:80
+msgid "Project ID"
+msgstr "Project ID"
+
+#: admin/ui/settings.php:81
+msgid "Title"
+msgstr "Title"
+
+#: admin/ui/settings.php:82
+msgid "Menu Order"
+msgstr "Menu Order"
+
+#: admin/ui/settings.php:83
+msgid "Date"
+msgstr "Date"
+
+#: admin/ui/settings.php:84
+msgid "Random Order"
+msgstr "Random Order"
+
+#: admin/ui/settings.php:91
+msgid "Sort items by"
+msgstr "Sort items by"
+
+#: admin/ui/settings.php:95
+msgid "Ascending Order"
+msgstr "Ascending Order"
+
+#: admin/ui/settings.php:96
+msgid "Descending Order"
+msgstr "Descending Order"
+
+#: admin/ui/settings.php:103
+msgid "Avoid Plugin CSS"
+msgstr "Avoid Plugin CSS"
+
+#: admin/ui/settings.php:104
+msgid "Apply styles to portfolio elements using your own CSS."
+msgstr "Apply styles to portfolio elements using your own CSS."
+
+#: admin/ui/settings.php:114
+msgid "Archive Images"
+msgstr "Archive Images"
+
+#: admin/ui/settings.php:115
+msgid "Size of your project images in lists of projects."
+msgstr "Size of your project images in lists of projects."
+
+#: admin/ui/settings.php:121
+msgid "Single Images"
+msgstr "Single Images"
+
+#: admin/ui/settings.php:122
+msgid "Size of project image in portfolio project pages."
+msgstr "Size of project image in portfolio project pages."
+
+#: admin/ui/settings.php:132
+msgid "Archives Base Slug"
+msgstr "Archives Base Slug"
+
+#: admin/ui/settings.php:133
+#, php-format
+msgid "Base name for permalinks to portfolio archives. &mdash; i.e.: %s/%s/."
+msgstr "Base name for permalinks to portfolio archives. &mdash; i.e.: %s/%s/."
+
+#: admin/ui/settings.php:139
+msgid "Project Base Slug"
+msgstr "Project Base Slug"
+
+#: admin/ui/settings.php:140
+#, php-format
+msgid "Base name for permalinks to portfolio projects. &mdash; i.e.: %s/%s/%s/."
+msgstr ""
+"Base name for permalinks to portfolio projects. &mdash; i.e.: %s/%s/%s/."
+
+#: admin/ui/settings.php:146
+msgid "Category Base Slug"
+msgstr "Category Base Slug"
+
+#: admin/ui/settings.php:147
+#, php-format
+msgid ""
+"Base name for permalinks to portfolio categories. &mdash; i.e.: %s/%s/%s/."
+msgstr ""
+"Base name for permalinks to portfolio categories. &mdash; i.e.: %s/%s/%s/."
+
+#: admin/ui/settings.php:153
+msgid "Tag Base Slug"
+msgstr "Tag Base Slug"
+
+#: admin/ui/settings.php:154
+#, php-format
+msgid "Base name for permalinks to portfolio tags. &mdash; i.e.: %s/%s/%s/."
+msgstr "Base name for permalinks to portfolio tags. &mdash; i.e.: %s/%s/%s/."
+
+#: admin/ui/settings.php:160
+msgid "Remove Data On Deactivation"
+msgstr "Remove Data On Deactivation"
+
+#: admin/ui/settings.php:161
+msgid "Delete all plugin settings once you deactivate it."
+msgstr "Delete all plugin settings once you deactivate it."
+
+#: admin/ui/settings.php:262
+msgid "Crop:"
+msgstr "Crop:"
+
+#: admin/ui/sidebar-boxes.php:34
+msgid "Subscribe to our Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: admin/ui/sidebar-boxes.php:38
+msgid "Need help with this plugin?"
+msgstr "Need help with this plugin?"
+
+#: admin/ui/sidebar-boxes.php:42
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/ui/sidebar-boxes.php:46
+msgid "Join us on"
+msgstr "Join us on"
+
+#: admin/ui/tabs.php:32
+msgid "General"
+msgstr "General"
+
+#: admin/ui/tabs.php:42
+msgid "Images"
+msgstr "Images"
+
+#: admin/ui/tabs.php:52
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/ui/templates/about-heading.php:17
+#, php-format
+msgid "Nice Portfolio %s"
+msgstr "Nice Portfolio %s"
+
+#: admin/ui/templates/about-heading.php:18
+msgid "The most powerful portfolio plugin you've ever seen"
+msgstr "The most powerful portfolio plugin you've ever seen"
+
+#: admin/ui/templates/help-sidebar.php:16
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/ui/templates/help-sidebar.php:17
+msgid "WordPress.org Plugin"
+msgstr "WordPress.org Plugin"
+
+#: admin/ui/templates/help-sidebar.php:18
+msgid "Github Project"
+msgstr "Github Project"
+
+#: admin/ui/templates/help-sidebar.php:19
+#: admin/ui/templates/help-tab-themes.php:16
+msgid "Official Themes"
+msgstr "Official Themes"
+
+#: admin/ui/templates/help-tab-advanced.php:18
+msgid ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it, and changing the post "
+"type slug."
+msgstr ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it, and changing the post "
+"type slug."
+
+#: admin/ui/templates/help-tab-advanced.php:20
+#, php-format
+msgid ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+msgstr ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-general.php:18
+msgid ""
+"Configure how your projects will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can pick the "
+"portfolio page, set the number of projects to display by default, etc."
+msgstr ""
+"Configure how your projects will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can pick the "
+"portfolio page, set the number of projects to display by default, etc."
+
+#: admin/ui/templates/help-tab-general.php:20
+#, php-format
+msgid ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-help.php:18
+#, php-format
+msgid ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+msgstr ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+
+#: admin/ui/templates/help-tab-help.php:20
+#, php-format
+msgid ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+msgstr ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+
+#: admin/ui/templates/help-tab-help.php:22
+msgid "Found a bug?"
+msgstr "Found a bug?"
+
+#: admin/ui/templates/help-tab-help.php:24
+msgid ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+msgstr ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in GitHub"
+msgstr "Report bug in GitHub"
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in forum"
+msgstr "Report bug in forum"
+
+#: admin/ui/templates/help-tab-images.php:18
+msgid ""
+"This screen provides the images settings. You can set the sizes for your "
+"project images. Once you change these settings, you may need to regenerate "
+"your thumbnails to see the changes."
+msgstr ""
+"This screen provides the images settings. You can set the sizes for your "
+"project images. Once you change these settings, you may need to regenerate "
+"your thumbnails to see the changes."
+
+#: admin/ui/templates/help-tab-images.php:20
+msgid ""
+"The \"Archives images\" size is the size of your project images when the list "
+"of projects is viewed. The \"Single images\" size refers to the size of the "
+"project image in the portfolio project pages."
+msgstr ""
+"The \"Archives images\" size is the size of your project images when the list "
+"of projects is viewed. The \"Single images\" size refers to the size of the "
+"project image in the portfolio project pages."
+
+#: admin/ui/templates/help-tab-themes.php:18
+msgid ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please consider "
+"checking our paid products."
+msgstr ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please consider "
+"checking our paid products."
+
+#: admin/ui/templates/help-tab-themes.php:20
+msgid "Check the official Themes"
+msgstr "Check the official Themes"
+
+#: admin/ui/templates/widget-help.php:16
+msgid ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+msgstr ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+
+#: admin/ui/templates/widget-help.php:17
+msgid "Read plugin documentation"
+msgstr "Read plugin documentation"
+
+#: admin/ui/templates/widget-newsletter.php:16
+msgid ""
+"If you would like to keep up to date regarding Nice Portfolio and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+msgstr ""
+"If you would like to keep up to date regarding Nice Portfolio and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+
+#: admin/ui/templates/widget-newsletter.php:35
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/ui/templates/widget-newsletter.php:45
+msgid "Get me in!"
+msgstr "Get me in!"
+
+#: admin/ui/templates/widget-rate-plugin.php:16
+msgid ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+msgstr ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+
+#: admin/ui/templates/widget-rate-plugin.php:18
+msgid "See our official themes"
+msgstr "See our official themes"
+
+#: admin/ui/templates/widget-rate-plugin.php:19
+msgid "Check other plugins by NiceThemes"
+msgstr "Check other plugins by NiceThemes"
+
+#: compatibility/themes/twentyeleven.php:60
+#: compatibility/themes/twentyeleven.php:79
+#: compatibility/themes/twentyfourteen.php:82
+#: compatibility/themes/twentythirteen.php:60
+msgid "Project navigation"
+msgstr "Project navigation"
+
+#: compatibility/themes/twentyeleven.php:61
+msgid "<span class=\"meta-nav\">&larr;</span> Older projects"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older projects"
+
+#: compatibility/themes/twentyeleven.php:62
+msgid "Newer projects <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer projects <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyeleven.php:80
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Previous"
+
+#: compatibility/themes/twentyeleven.php:81
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Next <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyfifteen.php:59
+#: compatibility/themes/twentysixteen.php:81
+msgid "Previous page"
+msgstr "Previous page"
+
+#: compatibility/themes/twentyfifteen.php:60
+#: compatibility/themes/twentysixteen.php:82
+msgid "Next page"
+msgstr "Next page"
+
+#: compatibility/themes/twentyfifteen.php:61
+#: compatibility/themes/twentysixteen.php:83
+msgid "Page"
+msgstr "Page"
+
+#: compatibility/themes/twentyfifteen.php:78
+#: compatibility/themes/twentysixteen.php:100
+msgid "Next"
+msgstr "Next"
+
+#: compatibility/themes/twentyfifteen.php:79
+#: compatibility/themes/twentysixteen.php:101
+msgid "Next project:"
+msgstr "Next project:"
+
+#: compatibility/themes/twentyfifteen.php:81
+#: compatibility/themes/twentysixteen.php:103
+msgid "Previous"
+msgstr "Previous"
+
+#: compatibility/themes/twentyfifteen.php:82
+#: compatibility/themes/twentysixteen.php:104
+msgid "Previous project:"
+msgstr "Previous project:"
+
+#: compatibility/themes/twentyfourteen.php:87
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Published In</span>%title"
+
+#: compatibility/themes/twentyfourteen.php:89
+msgid "<span class=\"meta-nav\">Previous Project</span>%title"
+msgstr "<span class=\"meta-nav\">Previous Project</span>%title"
+
+#: compatibility/themes/twentyfourteen.php:90
+msgid "<span class=\"meta-nav\">Next Project</span>%title"
+msgstr "<span class=\"meta-nav\">Next Project</span>%title"
+
+#: compatibility/themes/twentyten.php:36
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: compatibility/themes/twentyten.php:37
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyten.php:54
+#: compatibility/themes/twentytwelve.php:86
+msgctxt "Previous project link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: compatibility/themes/twentyten.php:55
+#: compatibility/themes/twentytwelve.php:87
+msgctxt "Next project link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: compatibility/themes/twentythirteen.php:63
+msgctxt "Previous project link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: compatibility/themes/twentythirteen.php:64
+msgctxt "Next project link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentytwelve.php:85
+#: templates/loop/projects-page-navigation.php:19
+msgid "Projects navigation"
+msgstr "Projects navigation"
+
+# Plugin name
+#: includes/i18n.php:26
+msgid "Nice Portfolio"
+msgstr "Nice Portfolio"
+
+#: includes/i18n.php:27
+msgid "Nice Portfolio By NiceThemes"
+msgstr "Nice Portfolio By NiceThemes"
+
+# Plugin description
+#: includes/i18n.php:28
+msgid ""
+"A great portfolio plugin to show your work to the world in a clean, "
+"responsive and beautiful way. You can show your projects in a specific page, "
+"using a shortcode, widgets or template tags."
+msgstr ""
+"A great portfolio plugin to show your work to the world in a clean, "
+"responsive and beautiful way. You can show your projects in a specific page, "
+"using a shortcode, widgets or template tags."
+
+#: includes/post-types/portfolio/category.php:37
+msgid "Project Categories"
+msgstr "Project Categories"
+
+#: includes/post-types/portfolio/category.php:38
+msgid "Project Category"
+msgstr "Project Category"
+
+#: includes/post-types/portfolio/category.php:39
+#: templates/single-project/categories.php:30
+msgid "Categories"
+msgstr "Categories"
+
+#: includes/post-types/portfolio/category.php:40
+msgid "Category"
+msgstr "Category"
+
+#: includes/post-types/portfolio/category.php:41
+msgid "Search Categories"
+msgstr "Search Categories"
+
+#: includes/post-types/portfolio/category.php:42
+msgid "Popular Categories"
+msgstr "Popular Categories"
+
+#: includes/post-types/portfolio/category.php:43
+msgid "All Categories"
+msgstr "All Categories"
+
+#: includes/post-types/portfolio/category.php:44
+msgid "Edit Category"
+msgstr "Edit Category"
+
+#: includes/post-types/portfolio/category.php:45
+msgid "View Category"
+msgstr "View Category"
+
+#: includes/post-types/portfolio/category.php:46
+msgid "Update Category"
+msgstr "Update Category"
+
+#: includes/post-types/portfolio/category.php:47
+msgid "Add New Category"
+msgstr "Add New Category"
+
+#: includes/post-types/portfolio/category.php:48
+msgid "New Category Name"
+msgstr "New Category Name"
+
+#: includes/post-types/portfolio/category.php:49
+msgid "Parent Category"
+msgstr "Parent Category"
+
+#: includes/post-types/portfolio/category.php:50
+msgid "Parent Category:"
+msgstr "Parent Category:"
+
+#: includes/post-types/portfolio/post-type.php:37
+msgid "Projects"
+msgstr "Projects"
+
+#: includes/post-types/portfolio/post-type.php:38
+msgid "Portfolio Item"
+msgstr "Portfolio Item"
+
+#: includes/post-types/portfolio/post-type.php:39
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/post-types/portfolio/post-type.php:40
+msgid "Portfolio Project"
+msgstr "Portfolio Project"
+
+#: includes/post-types/portfolio/post-type.php:41
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/post-types/portfolio/post-type.php:42
+msgid "Add New Project"
+msgstr "Add New Project"
+
+#: includes/post-types/portfolio/post-type.php:43
+msgid "Edit Project"
+msgstr "Edit Project"
+
+#: includes/post-types/portfolio/post-type.php:44
+msgid "New Project"
+msgstr "New Project"
+
+#: includes/post-types/portfolio/post-type.php:45
+msgid "View Project"
+msgstr "View Project"
+
+#: includes/post-types/portfolio/post-type.php:46
+msgid "Search Projects"
+msgstr "Search Projects"
+
+#: includes/post-types/portfolio/post-type.php:47
+msgid "No projects found"
+msgstr "No projects found"
+
+#: includes/post-types/portfolio/post-type.php:48
+msgid "No projects found in trash"
+msgstr "No projects found in trash"
+
+#: includes/post-types/portfolio/post-type.php:49
+msgid "All Projects"
+msgstr "All Projects"
+
+#: includes/post-types/portfolio/tag.php:37
+msgid "Project Tags"
+msgstr "Project Tags"
+
+#: includes/post-types/portfolio/tag.php:38
+msgid "Project Tag"
+msgstr "Project Tag"
+
+#: includes/post-types/portfolio/tag.php:39
+#: templates/single-project/tags.php:31
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/post-types/portfolio/tag.php:40
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/post-types/portfolio/tag.php:41
+msgid "Search Tags"
+msgstr "Search Tags"
+
+#: includes/post-types/portfolio/tag.php:42
+msgid "Popular Tags"
+msgstr "Popular Tags"
+
+#: includes/post-types/portfolio/tag.php:43
+msgid "All Tags"
+msgstr "All Tags"
+
+#: includes/post-types/portfolio/tag.php:44
+msgid "Edit Tag"
+msgstr "Edit Tag"
+
+#: includes/post-types/portfolio/tag.php:45
+msgid "View Tag"
+msgstr "View Tag"
+
+#: includes/post-types/portfolio/tag.php:46
+msgid "Update Tag"
+msgstr "Update Tag"
+
+#: includes/post-types/portfolio/tag.php:47
+msgid "Add New Tag"
+msgstr "Add New Tag"
+
+#: includes/post-types/portfolio/tag.php:48
+msgid "New Tag Name"
+msgstr "New Tag Name"
+
+#: includes/post-types/portfolio/tag.php:49
+msgid "Separate tags with commas"
+msgstr "Separate tags with commas"
+
+#: includes/post-types/portfolio/tag.php:50
+msgid "Add or remove tags"
+msgstr "Add or remove tags"
+
+#: includes/post-types/portfolio/tag.php:51
+msgid "Choose from the most used tags"
+msgstr "Choose from the most used tags"
+
+#: includes/post-types/portfolio/tag.php:52
+msgid "No tags found"
+msgstr "No tags found"
+
+#: includes/widgets/class-widget-categories.php:76
+msgid "(NiceThemes) Portfolio Categories"
+msgstr "(NiceThemes) Portfolio Categories"
+
+#: includes/widgets/class-widget-categories.php:84
+msgid "A widget that displays the portfolio categories."
+msgstr "A widget that displays the portfolio categories."
+
+#: includes/widgets/class-widget-recent-projects.php:78
+msgid "(NiceThemes) Recent Projects"
+msgstr "(NiceThemes) Recent Projects"
+
+#: includes/widgets/class-widget-recent-projects.php:86
+msgid "A widget that displays the most recent portfolio projects."
+msgstr "A widget that displays the most recent portfolio projects."
+
+#: integrations/nice-likes.php:30
+msgid "Portfolio Projects"
+msgstr "Portfolio Projects"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:370
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lib/admin-ui/includes/class-admin-ui-html-handler.php:176
+msgid "Search"
+msgstr "Search"
+
+#: lib/custom-post-type/glancer/domain/class-glancer-service.php:71
+msgid ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+msgstr ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+
+#: lib/custom-post-type/metabox/create/class-metabox-create-responder.php:101
+#, php-format
+msgid "%s Settings"
+msgstr "%s Settings"
+
+#: lib/custom-post-type/metabox/includes/class-metabox-html-handler.php:242
+#, php-format
+msgid ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+msgstr ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+
+#: lib/custom-post-type/post-type-admin/display/class-post-type-admin-display-responder.php:69
+msgid "Image"
+msgstr "Image"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:109
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:110
+#, php-format
+msgid "Add %s"
+msgstr "Add %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:111
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:183
+#, php-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:112
+#, php-format
+msgid "New %s"
+msgstr "New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:113
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:114
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:190
+#, php-format
+msgid "Search %s"
+msgstr "Search %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:115
+#, php-format
+msgid "No %s found"
+msgstr "No %s found"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:116
+#, php-format
+msgid "No %s in the trash"
+msgstr "No %s in the trash"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:184
+#, php-format
+msgid "Update %s"
+msgstr "Update %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:185
+#, php-format
+msgid "Add New %s"
+msgstr "Add New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:186
+#, php-format
+msgid "New %s Name"
+msgstr "New %s Name"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:187
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:188
+#, php-format
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:189
+#, php-format
+msgid "All %s"
+msgstr "All %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:191
+#, php-format
+msgid "Popular %s"
+msgstr "Popular %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:192
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separate %s with commas"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:193
+#, php-format
+msgid "Add or remove %s"
+msgstr "Add or remove %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:194
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Choose from the most used %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:195
+#, php-format
+msgid "No %s found."
+msgstr "No %s found."
+
+#: lib/nice-adr/src/functions.php:237
+#, php-format
+msgid "%s action does not exist. You need to create it in order to proceed."
+msgstr "%s action does not exist. You need to create it in order to proceed."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:69
+#, php-format
+msgid ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+msgstr ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:71
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:78
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:85
+#, php-format
+msgid "Back to %1$sWordPress Dashboard%2$s."
+msgstr "Back to %1$sWordPress Dashboard%2$s."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:76
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+msgstr ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:83
+#, php-format
+msgid ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+msgstr ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+
+#: lib/plugin-api/admin/functions.php:76
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_admin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_admin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/functions.php:239
+#, php-format
+msgid "(This message was added in %s version %s.)"
+msgstr "(This message was added in %s version %s.)"
+
+#: lib/plugin-api/functions.php:240
+#, php-format
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+
+#: lib/plugin-api/plugin/functions.php:70
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/public/functions.php:67
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_public_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_portfolio_plugin_public_after_init in order to prevent recursion."
+
+#: public/class-portfolio-project.php:116
+#, php-format
+msgid "The WP_Post object passed to %s class must belong of the %s post type"
+msgstr "The WP_Post object passed to %s class must belong of the %s post type"
+
+#: public/class-portfolio.php:111
+msgid "You need to create at least one instance before trying to obtain one."
+msgstr "You need to create at least one instance before trying to obtain one."
+
+#: public/template-functions.php:1158
+msgid "Projects Archive"
+msgstr "Projects Archive"
+
+#: templates/loop/empty/empty.php:19
+msgid "Sorry, it seems there is nothing to see here."
+msgstr "Sorry, it seems there is nothing to see here."
+
+#: templates/loop/filter-project-category.php:40
+#: templates/loop/filter-project-tag.php:31
+#: templates/loop/filter-project-term.php:31
+msgid "All"
+msgstr "All"
+
+#: templates/single-project/details.php:24
+msgid "Client:"
+msgstr "Client:"
+
+#: templates/single-project/details.php:28
+msgid "Start Date:"
+msgstr "Start Date:"
+
+#: templates/single-project/details.php:32
+msgid "End Date:"
+msgstr "End Date:"
+
+#: templates/single-project/related.php:30
+msgid "Related Projects"
+msgstr "Related Projects"
+
+#: templates/single-project/url.php:22
+msgid "Visit Project"
+msgstr "Visit Project"
+
+#: templates/widgets/portfolio-categories/dropdown.php:48
+msgid "Select Category"
+msgstr "Select Category"
+
+#~ msgid ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+#~ msgstr ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+
+#~ msgid "Project Slug"
+#~ msgstr "Project Slug"
+
+#~ msgid ""
+#~ "Base name for permalinks to portfolio items. &mdash; i.e.: %s/project-"
+#~ "slug/."
+#~ msgstr ""
+#~ "Base name for permalinks to portfolio items. &mdash; i.e.: %s/project-"
+#~ "slug/."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+
+#~ msgid "Nice By NiceThemes"
+#~ msgstr "Nice By NiceThemes"
+
+# Plugin name + author
+#~ msgid "Nice Portfolio by NiceThemes"
+#~ msgstr "Nice Portfolio by NiceThemes"
+
+#~ msgid ""
+#~ "You just installed %1$s. Go to %2$sNice Portfolio Settings%3$s to "
+#~ "configure the plugin or %4$sdismiss this message%5$s."
+#~ msgstr ""
+#~ "You just installed %1$s. Go to %2$sNice Portfolio Settings%3$s to "
+#~ "configure the plugin or %4$sdismiss this message%5$s."
+
+#~ msgid ""
+#~ "If you would like to keep up to date regarding the Portfolio plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+#~ msgstr ""
+#~ "If you would like to keep up to date regarding the Portfolio plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+
+#~ msgid "About Nice Portfolio by NiceThemes"
+#~ msgstr "About Nice Portfolio"
+
+#~ msgid ""
+#~ "The number of projects to be displayed in a portfolio gallery. A value of "
+#~ "0 (zero) means no projects will display. Use -1 (minus one) to display "
+#~ "unlimited projects."
+#~ msgstr ""
+#~ "The number of projects to be displayed in a portfolio gallery. A value of "
+#~ "0 (zero) means no projects will display. Use -1 (minus one) to display "
+#~ "unlimited projects."
+
+#~ msgid "The number of columns to be displayed in a portfolio gallery."
+#~ msgstr "The number of columns to be displayed in a portfolio gallery."
+
+#~ msgid "Custom Fields"
+#~ msgstr "Custom Fields"
+
+#~ msgid "Portfolio Categories"
+#~ msgstr "Portfolio Categories"
+
+#~ msgid "Recent Projects"
+#~ msgstr "Recent Projects"
+
+#~ msgid "View More"
+#~ msgstr "View More"
+
+#~ msgid "Post navigation"
+#~ msgstr "Post navigation"
+
+#~ msgid "Project URL:"
+#~ msgstr "Project URL:"
+
+#~ msgid "Archive"
+#~ msgstr "Archive"
+
+#~ msgid ""
+#~ "Configure how your projects will be displayed by default. The options "
+#~ "presented here can be overridden in a shortcode basis. You can enable the "
+#~ "plugin and get it working, pick the portfolio page, set the number of "
+#~ "projects to display by default, etc."
+#~ msgstr ""
+#~ "Configure how your projects will be displayed by default. The options "
+#~ "presented here can be overridden in a shortcode basis. You can enable the "
+#~ "plugin and get it working, pick the portfolio page, set the number of "
+#~ "projects to display by default, etc."
+
+#~ msgid ""
+#~ "Configure how your projects will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+#~ msgstr ""
+#~ "Configure how your projects will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+
+#~ msgid ""
+#~ "Here you can set the sizes for your project images. Once you change these "
+#~ "settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+#~ "regenerate-thumbnails/\">regenerate your thumbnails</a>."
+#~ msgstr ""
+#~ "Here you can set the sizes for your project images. Once you change these "
+#~ "settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+#~ "regenerate-thumbnails/\">regenerate your thumbnails</a>."
+
+#~ msgid "This is the page where all your projects will appear"
+#~ msgstr "This is the page where all your projects will appear"
+
+#~ msgid "You can override this setting in shortcodes using the %s property"
+#~ msgstr "You can override this setting in shortcodes using the %s property"
+
+#~ msgid ""
+#~ "Base name for permalinks to portfolio items. &mdash; i.e.: %s/project-slug/"
+#~ msgstr ""
+#~ "Base name for permalinks to portfolio items. &mdash; i.e.: %s/project-slug/"
+
+#~ msgid "Need Help with this plugin?"
+#~ msgstr "Need Help with this plugin?"
+
+#~ msgid ""
+#~ "This screen provides the most basic settings for configuring the plugin. "
+#~ "If you need further support, please consider checking the documentation or "
+#~ "reporting a bug"
+#~ msgstr ""
+#~ "This screen provides the most basic settings for configuring the plugin. "
+#~ "If you need further support, please consider checking the documentation or "
+#~ "reporting a bug"
+
+#~ msgid ""
+#~ "After reading the documentation, for further assistance you can use our "
+#~ "community forum if you get stuck. For help with premium add-ons from "
+#~ "WooThemes, or if you are a WooThemes customer, you can use our helpdesk."
+#~ msgstr ""
+#~ "After reading the documentation, for further assistance you can use our "
+#~ "community forum if you get stuck. For help with premium add-ons from "
+#~ "WooThemes, or if you are a WooThemes customer, you can use our helpdesk."
+
+#~ msgid ""
+#~ "Before asking for help we recommend checking the status page to identify "
+#~ "any problems with your configuration."
+#~ msgstr ""
+#~ "Before asking for help we recommend checking the status page to identify "
+#~ "any problems with your configuration."
+
+#~ msgid "First option"
+#~ msgstr "First option"
+
+#~ msgid "Second option"
+#~ msgstr "Second option"
+
+#~ msgid "Third option"
+#~ msgstr "Third option"
+
+#~ msgid ""
+#~ "If you find a bug within this plugin you can create a ticket via Github "
+#~ "issues. Ensure you read the contribution guide prior to submitting your "
+#~ "report. Be as descriptive as possible and please include your system "
+#~ "status report."
+#~ msgstr ""
+#~ "If you find a bug within this plugin you can create a ticket via Github "
+#~ "issues. Ensure you read the contribution guide prior to submitting your "
+#~ "report. Be as descriptive as possible and please include your system "
+#~ "status report."
+
+#~ msgid "Report a bug"
+#~ msgstr "Report a bug"
+
+#~ msgid ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."
+#~ msgstr ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."

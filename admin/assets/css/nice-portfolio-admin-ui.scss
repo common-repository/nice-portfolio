@@ -1,0 +1,135 @@
+/**
+ * Custom CSS rules for Admin UI only.
+ *
+ * @package Nice_Portfolio
+ * @since   1.0
+ */
+// Header
+$color__background-masthead:         #6A8D92;
+$color__background-header:           lighten( $color__background-masthead, 7% );
+$color__background-header-nav-hover: #6A8D92;
+
+// Footer
+$color__background-footer:    darken( $color__background-masthead, 15% );
+$color__border-footer-top:    darken( $color__background-footer, 10% );
+$color__border-footer-bottom: lighten( $color__background-footer, 10% );
+
+.container .page-content {
+	width: auto;
+}
+
+@media screen and (max-width: 799px) {
+	.container .content-sidebar {
+		.content,
+		.sidebar {
+			width: 100%;
+			float: none;
+		}
+
+		.content {
+			min-width: 420px;
+		}
+	}
+}
+
+.about-wrap {
+	margin: 0;
+	max-width: none;
+
+	.description p {
+		font-size: 18px;
+	}
+}
+
+.nice-admin-wrapper.about {
+	.box-container {
+		overflow: hidden;
+	}
+
+	.box {
+		width: 30%;
+		margin-right: 3.3333%;
+		margin-bottom: 20px;
+		float: left;
+
+		html[dir="rtl"] & {
+			margin-right: 0;
+			margin-left: 3.3333%;
+			float: right;
+		}
+
+		@media screen and (max-width: 1023px) {
+			width: auto;
+			margin: auto;
+			float: none;
+		}
+
+		&.first {
+			clear: both;
+		}
+	}
+}
+
+.main-nav .nice-logo {
+	display: block;
+}
+
+.header {
+	background-color: $color__background-header;
+	min-width: 450px;
+}
+
+html[dir="rtl"] {
+	.masthead,
+	.masthead > * {
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+}
+
+.masthead {
+	background-color: $color__background-masthead;
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+	.about & {
+		background-image: url("../images/bg-about.png");
+		background-position: center bottom;
+
+		h1 {
+			font-size: 3em;
+			max-width: none;
+			padding: 2em 15px 5px;
+		}
+
+		h2 {
+			padding: 0 15px 4.2em;
+			font-weight: normal;
+			color: #fff;
+		}
+	}
+}
+
+.header-nav {
+	.current,
+	li a:hover {
+		background-color: $color__background-header-nav-hover;
+	}
+}
+
+.footer {
+	background-color: $color__background-footer;
+
+	.primary {
+		border-color: $color__border-footer-top;
+	}
+
+	.secondary {
+		border-color: $color__border-footer-bottom;
+	}
+}

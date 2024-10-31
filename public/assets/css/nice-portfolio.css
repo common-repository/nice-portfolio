@@ -1,0 +1,336 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Portfolio
+ * @since   1.0
+ */
+/* ============================================================================
+   Table of Contents.
+   ----------------------------------------------------------------------------
+   1. Widgets.
+   2. Grid Styles.
+   3. Single Project.
+   4. Category Filter.
+   ========================================================================= */
+/* ============================================================================
+   1. Widgets.
+   ========================================================================= */
+.nice-portfolio-widget-box ul.widget_recent_entries li {
+  overflow: hidden;
+}
+.nice-portfolio-widget-box ul.widget_recent_entries li .wp-post-image {
+  position: relative;
+  float: left;
+  margin-right: 0.5em;
+}
+html[dir="rtl"] .nice-portfolio-widget-box ul.widget_recent_entries li .wp-post-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 0.5em;
+}
+.nice-portfolio-widget-box ul.widget_recent_entries li .post-excerpt {
+  clear: both;
+}
+
+/* ============================================================================
+   2. Grid Styles.
+   ========================================================================= */
+.nice-portfolio.default-styles.grid {
+  overflow: hidden;
+  margin-left: -3%;
+  /* same as your gutter */
+  margin-right: -0.23px;
+}
+html[dir="rtl"] .nice-portfolio.default-styles.grid {
+  margin-left: -0.23%;
+  /* same as your gutter */
+  margin-right: -3px;
+}
+.nice-portfolio.default-styles.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nice-portfolio.default-styles.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+html[dir="rtl"] .nice-portfolio.default-styles.grid-pad {
+  padding: 20px 20px 20px 0;
+}
+.nice-portfolio.default-styles.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+html[dir="rtl"] .nice-portfolio.default-styles.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 0;
+  padding-left: 20px;
+}
+.nice-portfolio.default-styles .nice-portfolio-project-featured-image {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+.nice-portfolio.default-styles .nice-portfolio-project-featured-image img {
+  width: 100%;
+  height: auto;
+}
+.nice-portfolio.default-styles .nice-portfolio-project-title h3 {
+  margin: 10px 0 20px;
+}
+.nice-portfolio.default-styles .nice-portfolio-project-title h3 a {
+  text-decoration: none;
+}
+.nice-portfolio.default-styles .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nice-portfolio.default-styles .row {
+  padding-bottom: 3%;
+}
+.nice-portfolio.default-styles [class*='columns-'] {
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 1em;
+  position: relative;
+  padding-left: 3%;
+}
+html[dir="rtl"] .nice-portfolio.default-styles [class*='columns-'] {
+  float: right;
+  padding-left: 0;
+  padding-right: 3%;
+}
+.nice-portfolio.default-styles [class*='columns-']:last-of-type {
+  padding-right: 0;
+}
+html[dir="rtl"] .nice-portfolio.default-styles [class*='columns-']:last-of-type {
+  padding-left: 0;
+}
+.nice-portfolio.default-styles [class*='columns-'].item.filtered {
+  clear: none;
+}
+.nice-portfolio.default-styles [class*='columns-'].item.filtered.first {
+  clear: both;
+}
+.nice-portfolio.default-styles .col-2-3 {
+  width: 66.66%;
+}
+.nice-portfolio.default-styles .columns-1 {
+  width: 100%;
+}
+.nice-portfolio.default-styles .columns-2 {
+  width: 50%;
+}
+.nice-portfolio.default-styles .columns-3 {
+  width: 33.33%;
+}
+.nice-portfolio.default-styles .columns-4 {
+  width: 25%;
+}
+.nice-portfolio.default-styles .columns-5 {
+  width: 20%;
+}
+.nice-portfolio.default-styles .columns-6 {
+  width: 16.66%;
+}
+.nice-portfolio.default-styles .columns-7 {
+  width: 14.28%;
+}
+.nice-portfolio.default-styles .columns-8 {
+  width: 12.5%;
+}
+.nice-portfolio.default-styles .columns-9 {
+  width: 11.11%;
+}
+.nice-portfolio.default-styles .columns-10 {
+  width: 10%;
+}
+.nice-portfolio.default-styles .columns-11 {
+  width: 9.09%;
+}
+.nice-portfolio.default-styles .columns-12 {
+  width: 8.33%;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-2 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-2:nth-child(2n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-3 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-3:nth-child(3n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-4 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-4:nth-child(4n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-5 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-5:nth-child(5n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-6 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-6:nth-child(6n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-7 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-7:nth-child(7n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-8 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-8:nth-child(8n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-9 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-9:nth-child(9n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-10 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-10:nth-child(10n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-11 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-11:nth-child(11n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-portfolio.default-styles .columns-12 {
+    width: 100%;
+  }
+}
+.nice-portfolio.default-styles .columns-12:nth-child(12n+1) {
+  clear: both;
+}
+
+/* ============================================================================
+   3. Single Project.
+   ========================================================================= */
+#nice-portfolio-project-featured-image {
+  margin-bottom: 15px;
+}
+#nice-portfolio-project-featured-image a {
+  display: block;
+  overflow: hidden;
+}
+#nice-portfolio-project-featured-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#nice-portfolio-project-navigation {
+  margin: 2em 0;
+  overflow: auto;
+}
+#nice-portfolio-project-navigation .project-navigation {
+  display: block;
+  width: 50%;
+}
+#nice-portfolio-project-navigation .project-navigation.next-project-link {
+  float: right;
+  text-align: right;
+}
+body.rtl #nice-portfolio-project-navigation .project-navigation.next-project-link {
+  float: left;
+  text-align: left;
+}
+body.rtl #nice-portfolio-project-navigation .project-navigation.next-project-link a:after {
+  content: '  \2190';
+}
+#nice-portfolio-project-navigation .project-navigation.next-project-link a:after {
+  content: '  \2192';
+}
+#nice-portfolio-project-navigation .project-navigation.previous-project-link {
+  float: left;
+  text-align: left;
+}
+body.rtl #nice-portfolio-project-navigation .project-navigation.previous-project-link {
+  float: right;
+  text-align: right;
+}
+body.rtl #nice-portfolio-project-navigation .project-navigation.previous-project-link a:before {
+  content: '\2192  ';
+}
+#nice-portfolio-project-navigation .project-navigation.previous-project-link a:before {
+  content: '\2190  ';
+}
+
+#nice-portfolio-project-gallery .gallery-container {
+  overflow: hidden;
+}
+
+#nice-portfolio-project-embed {
+  position: relative;
+  margin-bottom: 2em;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+#nice-portfolio-project-embed iframe,
+#nice-portfolio-project-embed object,
+#nice-portfolio-project-embed embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================================
+   4. Category Filter.
+   ========================================================================= */
+.nice-portfolio-filter {
+  overflow: hidden;
+  margin: 15px 0;
+}
+.nice-portfolio-filter ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nice-portfolio-filter ul li {
+  display: inline;
+  margin-left: 5px;
+}
+.nice-portfolio-filter ul li:first-child {
+  margin-left: 0;
+}

@@ -1,0 +1,326 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Portfolio
+ * @since   1.0
+ */
+
+/* ============================================================================
+   Table of Contents.
+   ----------------------------------------------------------------------------
+   1. Widgets.
+   2. Grid Styles.
+   3. Single Project.
+   4. Category Filter.
+   ========================================================================= */
+
+// Including mixins and variables.
+@import "sass/mixins/_mixins-master";
+@import "sass/variables/_variables";
+
+/* ============================================================================
+   1. Widgets.
+   ========================================================================= */
+.nice-portfolio-widget-box {
+	ul.widget_recent_entries {
+		li {
+			overflow: hidden;
+
+			.wp-post-image {
+				position: relative;
+				float: left;
+				margin-right: 0.5em;
+
+				html[dir="rtl"] & {
+					float: right;
+					margin-right: 0;
+					margin-left: 0.5em;
+				}
+			}
+
+			.post-excerpt {
+				clear: both;
+			}
+		}
+	}
+}
+
+/* ============================================================================
+   2. Grid Styles.
+   ========================================================================= */
+.nice-portfolio.default-styles {
+	&.grid {
+		overflow: hidden;
+		margin-left: -3%; /* same as your gutter */
+		margin-right: -0.23px;
+
+		html[dir="rtl"] & {
+			margin-left: -0.23%; /* same as your gutter */
+			margin-right: -3px;
+		}
+
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+
+	&.grid-pad {
+		padding: 20px 0 20px 20px;
+
+		html[dir="rtl"] & {
+			padding: 20px 20px 20px 0;
+		}
+
+		& > [class*='col-']:last-of-type {
+			padding-right: 20px;
+
+			html[dir="rtl"] & {
+				padding-right: 0;
+				padding-left: 20px;
+			}
+		}
+	}
+
+	.nice-portfolio-project-featured-image {
+		overflow: hidden;
+		position: relative;
+		margin: 0;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.nice-portfolio-project-title {
+		h3 {
+			margin: 10px 0 20px;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.row {
+		padding-bottom: 3%;
+	}
+
+	[class*='columns-'] {
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+		margin-bottom: 1em;
+		position: relative;
+		padding-left: 3%;
+
+		html[dir="rtl"] & {
+			float: right;
+			padding-left: 0;
+			padding-right: 3%;
+		}
+
+		&:last-of-type {
+			padding-right: 0;
+
+			html[dir="rtl"] & {
+				padding-left: 0;
+			}
+		}
+
+		&.item {
+			&.filtered {
+				clear: none;
+
+				&.first {
+					clear: both;
+				}
+			}
+		}
+	}
+
+	.col-2-3 {
+		width: 66.66%;
+	}
+
+	.columns-1 {
+		width: 100%;
+	}
+
+	.columns-2 {
+		width: 50%;
+	}
+
+	.columns-3 {
+		width: 33.33%;
+	}
+
+	.columns-4 {
+		width: 25%;
+	}
+
+	.columns-5 {
+		width: 20%;
+	}
+
+	.columns-6 {
+		width: 16.66%;
+	}
+
+	.columns-7 {
+		width: 14.28%;
+	}
+
+	.columns-8 {
+		width: 12.5%;
+	}
+
+	.columns-9 {
+		width: 11.11%;
+	}
+
+	.columns-10 {
+		width: 10%;
+	}
+
+	.columns-11 {
+		width: 9.09%;
+	}
+
+	.columns-12 {
+		width: 8.33%;
+	}
+
+	// Prevent grid items from floating in weird positions.
+	@for $i from 2 through 12 {
+		@media all and (max-width: 320px) {
+			.columns-#{$i} {
+				width: 100%;
+			}
+		}
+
+		.columns-#{$i}:nth-child(#{$i}n+1) {
+			clear: both;
+		}
+	}
+}
+
+/* ============================================================================
+   3. Single Project.
+   ========================================================================= */
+
+#nice-portfolio-project-featured-image {
+	margin-bottom: 15px;
+
+	a {
+		display: block;
+		overflow: hidden;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+#nice-portfolio-project-navigation {
+	margin: 2em 0;
+	overflow: auto;
+
+	.project-navigation {
+		display: block;
+		width: 50%;
+
+		&.next-project-link {
+			float: right;
+			text-align: right;
+
+			body.rtl & {
+				float: left;
+				text-align: left;
+
+				a:after {
+					content: '  \2190';
+				}
+			}
+
+			a:after {
+				content: '  \2192';
+			}
+		}
+
+		&.previous-project-link {
+			float: left;
+			text-align: left;
+
+			body.rtl & {
+				float: right;
+				text-align: right;
+
+				a:before {
+					content: '\2192  ';
+				}
+			}
+
+			a:before {
+				content: '\2190  ';
+			}
+		}
+	}
+}
+
+#nice-portfolio-project-gallery {
+	.gallery-container {
+		overflow: hidden;
+	}
+}
+
+#nice-portfolio-project-embed {
+	position: relative;
+	margin-bottom: 2em;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+
+	iframe,
+	object,
+	embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* ============================================================================
+   4. Category Filter.
+   ========================================================================= */
+.nice-portfolio-filter {
+	overflow: hidden;
+	margin: 15px 0;
+
+	ul {
+		float: right;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			display: inline;
+			margin-left: 5px;
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
